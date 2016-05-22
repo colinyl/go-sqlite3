@@ -134,7 +134,7 @@ var SQLiteTimestampFormats = []string{
 	"2006-01-02",
 }
 
-func init() {
+func Load() {
 	sql.Register("sqlite3", &SQLiteDriver{})
 }
 
